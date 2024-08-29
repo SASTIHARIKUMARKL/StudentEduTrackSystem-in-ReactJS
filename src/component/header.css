@@ -1,0 +1,14 @@
+.header {
+    background-color: #4e73df;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height:90px;
+    margin-right: 20px;
+}
+h1{
+    font-size: 20px;
+}

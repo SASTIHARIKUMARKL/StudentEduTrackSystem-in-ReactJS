@@ -1,0 +1,27 @@
+.side {
+    background-color: #133085;
+    width: 200px;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+.side ul {
+    list-style-type: none;
+    padding: 0;
+} 
+.side ul li {
+    margin: 15px 0;
+    cursor: pointer;
+    text-align: center;
+}
+.side p {
+    font-size: 2rem;
+    margin: 0;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+}
+.side p svg{
+    margin-bottom: 5px; 
+}

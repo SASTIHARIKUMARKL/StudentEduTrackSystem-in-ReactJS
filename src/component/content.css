@@ -1,0 +1,64 @@
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fc;
+}
+.content h3  {
+    border-top: 0.5px solid rgb(185, 185, 185);
+    text-align: center;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px 100px;
+}
+.stat-item {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    height: 80px;
+}
+.red {
+    background-color: #e74a3b;
+}
+.purple {
+    background-color: #7442a3;
+}
+.green {
+    background-color: #9deb5d;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px 150px;
+}
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    height: 100px;
+}
+.content .menu-item p,
+.content .stat-item p {
+    font-size: 2rem;
+    margin: 0;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+}
+.content .menu-item p svg,
+.content .stat-item p svg {
+    margin-bottom: 5px; 
+}
+.content .menu-item p {
+    color: rgb(109, 109, 199);
+}
