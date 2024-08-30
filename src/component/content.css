@@ -62,3 +62,13 @@
 .content .menu-item p {
     color: rgb(109, 109, 199);
 }
+.stat-item {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+.stat-item:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.1);
+}
